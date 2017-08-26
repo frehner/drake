@@ -1,7 +1,7 @@
 # Drake's Site
 You should be able to see two files here - a `README.md` and an `index.html`. What you're currently reading comes from the `README.md` file, and the website you'll be working on is the `index.html` file.
 
-The URL for your website is .
+The URL for your website is [https://frehner.github.io/drake/](https://frehner.github.io/drake/)
 
 ## Getting Started
 You can either click on the `Download` button and download a zip file, or you can open up the `index.html` file and just copy and paste the contents to a new `index.html` file on your computer.
