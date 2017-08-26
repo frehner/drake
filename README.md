@@ -15,4 +15,4 @@ Look for the section that I made for you; that's where you can do all your work.
 Anytime you save your `index.html` file, you can reload your webpage and you'll see the newest changes. You should also open the Developer Tools to see if your code has any errors in it (in Chrome you can press the `F12` button to open that up, and then look for a section called `Console`.) If there are any errors, they'll show up there.
 
 ## Saving your website to the internet
-Once you've added what you like to your site, come back to the `index.html` file here and click on the edit button. Then you can copy and paste the changes you made to your page on your computer into that file and save the changes. Once that's done, you (and anyone else!) should be able to go to that URL above and see your work!
+Once you've added what you like to your site, come back to the `index.html` file here and click on the edit button. Then you can copy and paste the changes you made to your page on your computer into that file and save the changes (it will say "Commit Changes"). Once that's done, you (and anyone else!) should be able to go to that URL above and see your work!
