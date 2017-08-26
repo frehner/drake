@@ -1,4 +1,4 @@
-# Drake's Site
+# Drake's Place
 You should be able to see two files here - a `README.md` and an `index.html`. What you're currently reading comes from the `README.md` file, and the website you'll be working on is the `index.html` file.
 
 The URL for your website is [https://frehner.github.io/drake/](https://frehner.github.io/drake/)
