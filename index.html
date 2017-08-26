@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Drake's Place</title>
+    </head>
+    <body>
+        <form id="math-form">
+            <p>
+                <input type="radio" name="math-operation" value="add" checked="true">Add
+                <input type="radio" name="math-operation" value="subtract">Subtract
+                <input type="radio" name="math-operation" value="multiply">Multiply
+                <input type="radio" name="math-operation" value="divide">Divide
+            </p>
+
+            <p>
+                <input type="number" name="first-number"> First Number
+                <br>
+                <input type="number" name="second-number"> Second Number
+            </p>
+
+            <button>Calculate!</button>
+        </form>
+        Answer: <input type="number" id="result" disabled>
+    </body>
+    <script>
+        document.getElementById("math-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var mathOperation = document.getElementsByName("math-operation")[0].value;
+            var firstNumber = parseInt(document.getElementsByName("first-number")[0].value);
+            var secondNumber = parseInt(document.getElementsByName("second-number")[0].value);
+            var answer;
+            if(isNaN(firstNumber) || isNaN(secondNumber)) {
+                alert("Enter numbers please!");
+                return null;
+            }
+            /*  
+                You have four variables to work with:
+                mathOperation, firstNumber, secondNumber, answer
+                
+                Save you answer to the answer variable like this: 
+                
+                answer = firstNumber + secondNumber;
+
+                and that should do it!
+            */
+            // DRAKE WORK BEGINS HERE
+
+
+            // DRAKE WORK STOPS HERE
+            document.getElementById("result").value = answer;
+        });
+    </script>
+</html>
